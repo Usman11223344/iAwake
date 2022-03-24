@@ -1,9 +1,3 @@
-//
-//  iawakeUITests.swift
-//  iawakeUITests
-//
-//  Created by iQueue on 23/03/2022.
-//
 
 import XCTest
 

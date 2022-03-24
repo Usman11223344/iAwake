@@ -11,13 +11,34 @@
 		0FC8F3A1821346F77340D236 /* Pods_iawakeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDE4A636308CDE654F4330F5 /* Pods_iawakeTests.framework */; };
 		1183B97727EBA209005493BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B97627EBA209005493BD /* AppDelegate.swift */; };
 		1183B97927EBA209005493BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B97827EBA209005493BD /* SceneDelegate.swift */; };
-		1183B97B27EBA209005493BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B97A27EBA209005493BD /* ViewController.swift */; };
 		1183B97E27EBA209005493BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1183B97C27EBA209005493BD /* Main.storyboard */; };
 		1183B98027EBA20D005493BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1183B97F27EBA20D005493BD /* Assets.xcassets */; };
 		1183B98327EBA20D005493BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1183B98127EBA20D005493BD /* LaunchScreen.storyboard */; };
 		1183B98E27EBA20D005493BD /* iawakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B98D27EBA20D005493BD /* iawakeTests.swift */; };
 		1183B99827EBA20D005493BD /* iawakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B99727EBA20D005493BD /* iawakeUITests.swift */; };
 		1183B99A27EBA20D005493BD /* iawakeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B99927EBA20D005493BD /* iawakeUITestsLaunchTests.swift */; };
+		1183B9B427EBA74F005493BD /* URLRequest+Assessment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B9AF27EBA74F005493BD /* URLRequest+Assessment.swift */; };
+		1183B9B527EBA74F005493BD /* UIViewController+Assessment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B9B027EBA74F005493BD /* UIViewController+Assessment.swift */; };
+		1183B9B727EBA74F005493BD /* UIView+Assessment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B9B227EBA74F005493BD /* UIView+Assessment.swift */; };
+		1183B9BB27EBA76C005493BD /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B9B827EBA76C005493BD /* EndPoint.swift */; };
+		1183B9C327EBA786005493BD /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B9BF27EBA786005493BD /* APIManager.swift */; };
+		1183B9C527EBA786005493BD /* APIWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B9C127EBA786005493BD /* APIWorker.swift */; };
+		1183B9C727EBA7A2005493BD /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B9C627EBA7A2005493BD /* AppCoordinator.swift */; };
+		1183B9CC27EBA81E005493BD /* FreeProgramsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B9CB27EBA81E005493BD /* FreeProgramsViewController.swift */; };
+		1183B9CE27EBA82F005493BD /* FreeProgramsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B9CD27EBA82F005493BD /* FreeProgramsPresenter.swift */; };
+		1183B9D027EBA83D005493BD /* FreeProgramsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B9CF27EBA83D005493BD /* FreeProgramsCoordinator.swift */; };
+		1183B9D227EBA848005493BD /* FreeProgramsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B9D127EBA848005493BD /* FreeProgramsInteractor.swift */; };
+		1183B9D627EBAAA3005493BD /* FreePrograms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B9D527EBAAA3005493BD /* FreePrograms.swift */; };
+		1183B9D927EBADE9005493BD /* FreeProgramTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B9D727EBADE9005493BD /* FreeProgramTableViewCell.swift */; };
+		1183B9DA27EBADE9005493BD /* FreeProgramTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1183B9D827EBADE9005493BD /* FreeProgramTableViewCell.xib */; };
+		1183B9DC27EC3E11005493BD /* FreePrograms+EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B9DB27EC3E11005493BD /* FreePrograms+EndPoint.swift */; };
+		1183B9DE27EC3E8C005493BD /* APIWorker+FreePrograms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B9DD27EC3E8C005493BD /* APIWorker+FreePrograms.swift */; };
+		1183B9E127EC7205005493BD /* TracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B9E027EC7205005493BD /* TracksViewController.swift */; };
+		1183B9E327EC7211005493BD /* TracksPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B9E227EC7211005493BD /* TracksPresenter.swift */; };
+		1183B9E527EC7220005493BD /* TracksCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B9E427EC7220005493BD /* TracksCoordinator.swift */; };
+		1183B9E727EC722C005493BD /* TracksInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B9E627EC722C005493BD /* TracksInteractor.swift */; };
+		1183B9EC27EC73D1005493BD /* TrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183B9EA27EC73D1005493BD /* TrackTableViewCell.swift */; };
+		1183B9ED27EC73D1005493BD /* TrackTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1183B9EB27EC73D1005493BD /* TrackTableViewCell.xib */; };
 		523226AAA18C785D304EC37E /* Pods_iawake_iawakeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D9FE8F7D65E5E414E8ADA5 /* Pods_iawake_iawakeUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +63,6 @@
 		1183B97327EBA209005493BD /* iawake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iawake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1183B97627EBA209005493BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1183B97827EBA209005493BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1183B97A27EBA209005493BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1183B97D27EBA209005493BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1183B97F27EBA20D005493BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1183B98227EBA20D005493BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +72,28 @@
 		1183B99327EBA20D005493BD /* iawakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iawakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1183B99727EBA20D005493BD /* iawakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iawakeUITests.swift; sourceTree = "<group>"; };
 		1183B99927EBA20D005493BD /* iawakeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iawakeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1183B9AF27EBA74F005493BD /* URLRequest+Assessment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+Assessment.swift"; sourceTree = "<group>"; };
+		1183B9B027EBA74F005493BD /* UIViewController+Assessment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Assessment.swift"; sourceTree = "<group>"; };
+		1183B9B227EBA74F005493BD /* UIView+Assessment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Assessment.swift"; sourceTree = "<group>"; };
+		1183B9B827EBA76C005493BD /* EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		1183B9BF27EBA786005493BD /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		1183B9C127EBA786005493BD /* APIWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIWorker.swift; sourceTree = "<group>"; };
+		1183B9C627EBA7A2005493BD /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		1183B9CB27EBA81E005493BD /* FreeProgramsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeProgramsViewController.swift; sourceTree = "<group>"; };
+		1183B9CD27EBA82F005493BD /* FreeProgramsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeProgramsPresenter.swift; sourceTree = "<group>"; };
+		1183B9CF27EBA83D005493BD /* FreeProgramsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeProgramsCoordinator.swift; sourceTree = "<group>"; };
+		1183B9D127EBA848005493BD /* FreeProgramsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeProgramsInteractor.swift; sourceTree = "<group>"; };
+		1183B9D527EBAAA3005493BD /* FreePrograms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreePrograms.swift; sourceTree = "<group>"; };
+		1183B9D727EBADE9005493BD /* FreeProgramTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeProgramTableViewCell.swift; sourceTree = "<group>"; };
+		1183B9D827EBADE9005493BD /* FreeProgramTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FreeProgramTableViewCell.xib; sourceTree = "<group>"; };
+		1183B9DB27EC3E11005493BD /* FreePrograms+EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FreePrograms+EndPoint.swift"; sourceTree = "<group>"; };
+		1183B9DD27EC3E8C005493BD /* APIWorker+FreePrograms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIWorker+FreePrograms.swift"; sourceTree = "<group>"; };
+		1183B9E027EC7205005493BD /* TracksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksViewController.swift; sourceTree = "<group>"; };
+		1183B9E227EC7211005493BD /* TracksPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksPresenter.swift; sourceTree = "<group>"; };
+		1183B9E427EC7220005493BD /* TracksCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksCoordinator.swift; sourceTree = "<group>"; };
+		1183B9E627EC722C005493BD /* TracksInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksInteractor.swift; sourceTree = "<group>"; };
+		1183B9EA27EC73D1005493BD /* TrackTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackTableViewCell.swift; sourceTree = "<group>"; };
+		1183B9EB27EC73D1005493BD /* TrackTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackTableViewCell.xib; sourceTree = "<group>"; };
 		231B56CA4835A44BAFDCF7C6 /* Pods-iawakeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iawakeTests.release.xcconfig"; path = "Target Support Files/Pods-iawakeTests/Pods-iawakeTests.release.xcconfig"; sourceTree = "<group>"; };
 		2A5AB3E2CD1AA1646392755F /* Pods_iawake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iawake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55239560609715C2E28A82E0 /* Pods-iawake-iawakeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iawake-iawakeUITests.release.xcconfig"; path = "Target Support Files/Pods-iawake-iawakeUITests/Pods-iawake-iawakeUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,7 +143,6 @@
 				72CD85DBD1232FDF0E777B9D /* Pods-iawakeTests.debug.xcconfig */,
 				231B56CA4835A44BAFDCF7C6 /* Pods-iawakeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -130,13 +171,11 @@
 		1183B97527EBA209005493BD /* iawake */ = {
 			isa = PBXGroup;
 			children = (
-				1183B97627EBA209005493BD /* AppDelegate.swift */,
-				1183B97827EBA209005493BD /* SceneDelegate.swift */,
-				1183B97A27EBA209005493BD /* ViewController.swift */,
-				1183B97C27EBA209005493BD /* Main.storyboard */,
-				1183B97F27EBA20D005493BD /* Assets.xcassets */,
-				1183B98127EBA20D005493BD /* LaunchScreen.storyboard */,
-				1183B98427EBA20D005493BD /* Info.plist */,
+				1183B9AA27EBA6BA005493BD /* Application */,
+				1183B9A927EBA6B2005493BD /* Models */,
+				1183B9A727EBA693005493BD /* Network */,
+				1183B9A627EBA68A005493BD /* Extensions */,
+				1183B9AC27EBA6D9005493BD /* Assets */,
 			);
 			path = iawake;
 			sourceTree = "<group>";
@@ -156,6 +195,149 @@
 				1183B99927EBA20D005493BD /* iawakeUITestsLaunchTests.swift */,
 			);
 			path = iawakeUITests;
+			sourceTree = "<group>";
+		};
+		1183B9A627EBA68A005493BD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1183B9B227EBA74F005493BD /* UIView+Assessment.swift */,
+				1183B9B027EBA74F005493BD /* UIViewController+Assessment.swift */,
+				1183B9AF27EBA74F005493BD /* URLRequest+Assessment.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1183B9A727EBA693005493BD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1183B9A827EBA6A4005493BD /* EndPoint */,
+				1183B9BF27EBA786005493BD /* APIManager.swift */,
+				1183B9C127EBA786005493BD /* APIWorker.swift */,
+				1183B9DD27EC3E8C005493BD /* APIWorker+FreePrograms.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1183B9A827EBA6A4005493BD /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				1183B9B827EBA76C005493BD /* EndPoint.swift */,
+				1183B9DB27EC3E11005493BD /* FreePrograms+EndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		1183B9A927EBA6B2005493BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1183B9D527EBAAA3005493BD /* FreePrograms.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1183B9AA27EBA6BA005493BD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1183B9AD27EBA705005493BD /* App Delegate */,
+				1183B9AB27EBA6C2005493BD /* Storyboards */,
+				1183B9C827EBA7DB005493BD /* UIViewControllers */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1183B9AB27EBA6C2005493BD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1183B98127EBA20D005493BD /* LaunchScreen.storyboard */,
+				1183B97C27EBA209005493BD /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1183B9AC27EBA6D9005493BD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1183B97F27EBA20D005493BD /* Assets.xcassets */,
+				1183B98427EBA20D005493BD /* Info.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		1183B9AD27EBA705005493BD /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1183B9C627EBA7A2005493BD /* AppCoordinator.swift */,
+				1183B97627EBA209005493BD /* AppDelegate.swift */,
+				1183B97827EBA209005493BD /* SceneDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		1183B9C827EBA7DB005493BD /* UIViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1183B9CA27EBA7F4005493BD /* Free Programs */,
+				1183B9DF27EC71ED005493BD /* Tracks */,
+			);
+			path = UIViewControllers;
+			sourceTree = "<group>";
+		};
+		1183B9CA27EBA7F4005493BD /* Free Programs */ = {
+			isa = PBXGroup;
+			children = (
+				1183B9CD27EBA82F005493BD /* FreeProgramsPresenter.swift */,
+				1183B9CF27EBA83D005493BD /* FreeProgramsCoordinator.swift */,
+				1183B9CB27EBA81E005493BD /* FreeProgramsViewController.swift */,
+				1183B9D127EBA848005493BD /* FreeProgramsInteractor.swift */,
+				1183B9D327EBA857005493BD /* Views */,
+			);
+			path = "Free Programs";
+			sourceTree = "<group>";
+		};
+		1183B9D327EBA857005493BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1183B9D427EBA85D005493BD /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1183B9D427EBA85D005493BD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1183B9D727EBADE9005493BD /* FreeProgramTableViewCell.swift */,
+				1183B9D827EBADE9005493BD /* FreeProgramTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1183B9DF27EC71ED005493BD /* Tracks */ = {
+			isa = PBXGroup;
+			children = (
+				1183B9E227EC7211005493BD /* TracksPresenter.swift */,
+				1183B9E027EC7205005493BD /* TracksViewController.swift */,
+				1183B9E427EC7220005493BD /* TracksCoordinator.swift */,
+				1183B9E627EC722C005493BD /* TracksInteractor.swift */,
+				1183B9E827EC73B6005493BD /* Views */,
+			);
+			path = Tracks;
+			sourceTree = "<group>";
+		};
+		1183B9E827EC73B6005493BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1183B9E927EC73BC005493BD /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1183B9E927EC73BC005493BD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1183B9EA27EC73D1005493BD /* TrackTableViewCell.swift */,
+				1183B9EB27EC73D1005493BD /* TrackTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		6B3AD379A20FB0CDCC0C0991 /* Frameworks */ = {
@@ -279,6 +461,8 @@
 			files = (
 				1183B98327EBA20D005493BD /* LaunchScreen.storyboard in Resources */,
 				1183B98027EBA20D005493BD /* Assets.xcassets in Resources */,
+				1183B9DA27EBADE9005493BD /* FreeProgramTableViewCell.xib in Resources */,
+				1183B9ED27EC73D1005493BD /* TrackTableViewCell.xib in Resources */,
 				1183B97E27EBA209005493BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,9 +591,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1183B97B27EBA209005493BD /* ViewController.swift in Sources */,
+				1183B9C327EBA786005493BD /* APIManager.swift in Sources */,
 				1183B97727EBA209005493BD /* AppDelegate.swift in Sources */,
+				1183B9B527EBA74F005493BD /* UIViewController+Assessment.swift in Sources */,
+				1183B9BB27EBA76C005493BD /* EndPoint.swift in Sources */,
+				1183B9D227EBA848005493BD /* FreeProgramsInteractor.swift in Sources */,
 				1183B97927EBA209005493BD /* SceneDelegate.swift in Sources */,
+				1183B9D027EBA83D005493BD /* FreeProgramsCoordinator.swift in Sources */,
+				1183B9D627EBAAA3005493BD /* FreePrograms.swift in Sources */,
+				1183B9DE27EC3E8C005493BD /* APIWorker+FreePrograms.swift in Sources */,
+				1183B9E127EC7205005493BD /* TracksViewController.swift in Sources */,
+				1183B9E327EC7211005493BD /* TracksPresenter.swift in Sources */,
+				1183B9E527EC7220005493BD /* TracksCoordinator.swift in Sources */,
+				1183B9B427EBA74F005493BD /* URLRequest+Assessment.swift in Sources */,
+				1183B9E727EC722C005493BD /* TracksInteractor.swift in Sources */,
+				1183B9D927EBADE9005493BD /* FreeProgramTableViewCell.swift in Sources */,
+				1183B9CE27EBA82F005493BD /* FreeProgramsPresenter.swift in Sources */,
+				1183B9C727EBA7A2005493BD /* AppCoordinator.swift in Sources */,
+				1183B9C527EBA786005493BD /* APIWorker.swift in Sources */,
+				1183B9DC27EC3E11005493BD /* FreePrograms+EndPoint.swift in Sources */,
+				1183B9CC27EBA81E005493BD /* FreeProgramsViewController.swift in Sources */,
+				1183B9B727EBA74F005493BD /* UIView+Assessment.swift in Sources */,
+				1183B9EC27EC73D1005493BD /* TrackTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,12 +793,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iawake/Info.plist;
+				INFOPLIST_FILE = iawake/Assets/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -618,12 +822,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iawake/Info.plist;
+				INFOPLIST_FILE = iawake/Assets/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

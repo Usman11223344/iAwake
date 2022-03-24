@@ -1,19 +1,16 @@
-//
-//  AppDelegate.swift
-//  iawake
-//
-//  Created by iQueue on 23/03/2022.
-//
 
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    var window: UIWindow?
+    private var appCoordinator: AppCoordinator?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        setUpAppCoordinator()
         return true
     }
 
@@ -32,5 +29,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+    // MARK: - App Coordinator SetUp
+    
+    func setUpAppCoordinator() {
+        if #available(iOS 13.0, *) {
+            // do nothing we will have a code in SceneceDelegate for this
+        } else {
+            self.window = UIWindow(frame: UIScreen.main.bounds)
+            self.appCoordinator = AppCoordinator(window: self.window!)
+            self.appCoordinator?.start()
+        }
+    }
 }
 
