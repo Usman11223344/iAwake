@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7334A059-1F93-4590-B413-BE8C1A946D00"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C1806963-DAB8-4D43-BBDD-1B1D3CA66E7D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iawake/Application/UIViewControllers/Tracks/TracksViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "setCurrentPlayBack(time:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C1806963-DAB8-4D43-BBDD-1B1D3CA66E7D - 4e01471353b6b0f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iawake.TracksViewController.didfinishplaying(note: __C.NSNotification) -&gt; ()"
+                  moduleName = "iawake"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iqueue/Documents/IQ%20Projects/iAwake/iAwake/iawake/Application/UIViewControllers/Tracks/TracksViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "168"
+                  endingLineNumber = "168"
+                  offsetFromSymbolStart = "113">
+               </Location>
+               <Location
+                  uuid = "C1806963-DAB8-4D43-BBDD-1B1D3CA66E7D - 4e01471353b6b0f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iawake.TracksViewController.didfinishplaying(note: __C.NSNotification) -&gt; ()"
+                  moduleName = "iawake"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iqueue/Documents/IQ%20Projects/iAwake/iAwake/iawake/Application/UIViewControllers/Tracks/TracksViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "168"
+                  endingLineNumber = "168"
+                  offsetFromSymbolStart = "154">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8EB9AAEE-7D9C-4945-BE23-1D3F36E49638"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iawake/Application/UIViewControllers/Tracks/TracksViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE8D73B3-B45F-491C-962D-9EFF55BAA397"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iawake/Application/UIViewControllers/Tracks/Views/Cells/TrackTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "configure(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
